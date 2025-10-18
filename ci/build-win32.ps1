@@ -140,8 +140,8 @@ meson.override_dependency('libjxl_threads', libjxl_threads_dep)
 $projects = @(
     @{
         Path = "$subprojects/ffmpeg.wrap"
-        URL = "https://github.com/Rum1kaLab/ffmpeg.git"
-        Revision = "master"
+        URL = "https://github.com/tuilakhanh-s-Stuff/ffmpeg.git"
+        Revision = "meson-7.1"
         Provides = @(
             "dependency_names = libavcodec, libavdevice, libavfilter, libavformat, libavutil, libswresample, libswscale"
             "program_names = ffmpeg"
