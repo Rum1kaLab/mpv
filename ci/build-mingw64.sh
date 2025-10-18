@@ -156,7 +156,7 @@ _lcms2 () {
 _lcms2_mark=lib/liblcms2.dll.a
 
 _ffmpeg () {
-    [ -d ffmpeg ] || $gitclone https://github.com/FFmpeg/FFmpeg.git ffmpeg
+    [ -d ffmpeg ] || $gitclone https://github.com/Rum1kaLab/FFmpeg.git ffmpeg
     builddir ffmpeg
     local args=(
         --pkg-config=pkg-config --target-os=mingw32 --enable-gpl
